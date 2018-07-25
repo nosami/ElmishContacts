@@ -223,12 +223,6 @@
     <Reference Include="Xamarin.Essentials">
       <HintPath>$(SolutionDir)/packages/Xamarin.Essentials.0.6.0-preview/lib/monoandroid71/Xamarin.Essentials.dll</HintPath>
     </Reference>
-    <Reference Include="Elmish.XamarinForms">
-      <HintPath>..\packages\Elmish.XamarinForms.0.15.2\lib\netstandard2.0\Elmish.XamarinForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Elmish.XamarinForms.Maps">
-      <HintPath>..\packages\Elmish.XamarinForms.Maps.0.15.2\lib\netstandard2.0\Elmish.XamarinForms.Maps.dll</HintPath>
-    </Reference>
     <Reference Include="FSharp.Core">
       <HintPath>..\packages\FSharp.Core.4.5.1\lib\netstandard1.6\FSharp.Core.dll</HintPath>
     </Reference>
@@ -237,6 +231,14 @@
     <ProjectReference Include="..\ElmishContacts\ElmishContacts.fsproj">
       <Project>{AD454E78-7578-4EB2-99EA-1F3F6F21A950}</Project>
       <Name>ElmishContacts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Elmish.XamarinForms\Elmish.XamarinForms\Elmish.XamarinForms.fsproj">
+      <Project>{86CBC761-168B-4B03-B622-A50BE6EA73ED}</Project>
+      <Name>Elmish.XamarinForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Elmish.XamarinForms\extensions\Maps\Elmish.XamarinForms.Maps.fsproj">
+      <Project>{4E4BE2CC-300C-461A-8D7B-7C5C18726374}</Project>
+      <Name>Elmish.XamarinForms.Maps</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
